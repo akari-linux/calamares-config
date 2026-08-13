@@ -1,0 +1,45 @@
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+
+# https://github.com/calamares/calamares/blob/calamares/src/branding/default/branding.desc
+---
+
+componentName:  akari
+
+welcomeStyleCalamares:   false
+welcomeExpandingLogo:   true
+
+windowExpanding:    normal
+
+navigation: widget
+
+strings:
+    productName:         Akari Linux
+    shortProductName:    Akari Linux
+    version:             26.04
+    shortVersion:        26.04
+    versionedName:       Akari Linux 26.04 "Crimson"
+    shortVersionedName:  Akari Linux 26.04
+    bootloaderEntryName: Akari Linux
+    productUrl:          https://calamares.io/
+    supportUrl:          https://github.com/calamares/calamares/wiki
+    knownIssuesUrl:      https://github.com/calamares/calamares/issues
+    releaseNotesUrl:     https://calamares.io/news/
+    # donateUrl:           https://kde.org/community/donations/index.php
+
+images:
+    # productBanner:       "banner.png"
+    productIcon:         "logo.png"
+    productLogo:         "logo.png"
+    productWallpaper:    "wallpaper.png"
+    # productWelcome:      "languages.png"
+
+style:
+   SidebarBackground:        "#FAF9FF"
+   SidebarText:              "#121221"
+   SidebarTextCurrent:       "#F2F1F8"
+   SidebarBackgroundCurrent: "#7161EF"
+
+# slideshow:  [ "/etc/calamares/slideshow/0.png", "/etc/logo.png" ]
+slideshow: "show.qml"
+slideshowAPI: 2
